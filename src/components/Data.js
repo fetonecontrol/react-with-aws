@@ -1,23 +1,14 @@
 import React from "react";
+import * as d3 from "d3";
 
 
-class Control extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      dataVisualization: [],
+function Data (){
 
-    };
-  }
-
-  render() {
-
-    return (
-      <React.Fragment>
-        <p>A Test of Things</p>
-      </React.Fragment>
-    );
-  }
+  return (
+    <React.Fragment>
+      <p>A Test of Things</p>
+    </React.Fragment>
+  );
 }
 
-export default Control;
+export default Data;
